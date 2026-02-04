@@ -1,0 +1,199 @@
+🎤 講稿大綱與時間分配
+I. 開場與引言 (3 分鐘)
+•	自我介紹與課程目標
+•	為什麼要學 Android 系統開發
+•	Android 在全球的影響力與應用場景
+II. Android 系統架構概覽 (5 分鐘)
+•	Linux Kernel 層
+•	HAL (Hardware Abstraction Layer)
+•	Android Runtime (ART/Dalvik)
+•	Framework 層 (Activity, Service, Content Provider, Broadcast Receiver)
+•	Application 層
+III. 開發環境與工具 (5 分鐘)
+•	Android Studio 介紹
+•	Gradle 與專案結構
+•	模擬器與真機測試
+•	常用 Debug 工具 (Logcat, Profiler)
+IV. 基礎開發流程 (7 分鐘)
+•	建立第一個專案 (Hello World)
+•	Activity 與生命週期
+•	UI 設計：XML Layout 與 View Binding
+•	資源管理 (strings.xml, drawable, styles)
+•	簡單事件處理 (Button 點擊事件)
+V. 核心概念與元件 (7 分鐘)
+•	四大元件：Activity、Service、Broadcast Receiver、Content Provider
+•	Intent 與 Intent Filter
+•	資料儲存方式：SharedPreferences、SQLite、Room
+•	基本權限管理 (Manifest 與 Runtime Permission)
+VI. 總結與延伸方向 (3 分鐘)
+•	回顧今日重點
+•	延伸學習：Jetpack、Kotlin、MVVM 架構
+•	鼓勵學員持續練習與探索
+📖 講稿逐段內容
+I. 開場與引言
+「大家好，今天我們要一起認識 Android 系統開發的基礎。Android 是全球最廣泛使用的行動作業系統，支援各種裝置，從手機到智慧電視、車載系統。學會 Android 開發，不僅能打造 App，更能理解系統背後的運作。」
+II. Android 系統架構概覽
+「Android 系統分為五層：
+•	Linux Kernel：提供核心功能，如記憶體管理、驅動程式。
+•	HAL：硬體抽象層，讓不同硬體能透過統一介面被系統使用。
+•	Runtime：包含 ART/Dalvik，負責執行 Java/Kotlin 程式碼。
+•	Framework：提供開發者 API，例如 Activity 管理、通知系統。
+•	Application：最上層就是我們開發的 App。」
+III. 開發環境與工具
+「Android Studio 是官方整合開發環境，支援 Kotlin 與 Java。專案透過 Gradle 管理依賴與編譯。開發時可使用模擬器快速測試，也能連接真機。Debug 工具如 Logcat 可以輸出訊息，Profiler 則能分析效能。」
+IV. 基礎開發流程
+「建立第一個專案時，Android Studio 會生成一個 MainActivity。Activity 是 App 的主要入口，擁有生命週期：onCreate、onStart、onResume、onPause、onStop、onDestroy。 UI 使用 XML 定義，例如 Button、TextView，並透過程式碼綁定事件。資源檔案集中管理，方便多語系與不同裝置支援。」
+V. 核心概念與元件
+「Android 的四大元件：
+•	Activity：畫面與互動。
+•	Service：背景執行，例如音樂播放。
+•	Broadcast Receiver：接收系統或 App 廣播事件。
+•	Content Provider：跨 App 資料共享。
+透過 Intent 可以在元件間傳遞訊息。資料儲存方式有 SharedPreferences、SQLite、Room。權限管理則需在 Manifest 宣告，並在執行時向使用者請求。」
+VI. 總結與延伸方向
+「今天我們快速走過 Android 系統開發的基礎：系統架構、開發工具、基本流程與核心元件。未來可以深入學習 Jetpack 套件、Kotlin 語言特性，以及 MVVM 架構設計。最重要的是持續練習，從簡單 App 開始，逐步累積經驗。」
+⏱ 時間分配建議
+•	開場：3 分鐘
+•	架構：5 分鐘
+•	工具：5 分鐘
+•	流程：7 分鐘
+•	核心概念：7 分鐘
+•	總結：3 分鐘
+ 
+📑 簡報大綱 (PPT 形式)
+投影片 1：封面
+•	標題：Android 系統開發基礎簡介
+•	副標題：30 分鐘入門課程
+•	講者姓名 / 日期
+投影片 2：課程目標
+•	認識 Android 系統架構
+•	熟悉開發環境與工具
+•	掌握基礎開發流程
+•	理解核心元件與概念
+投影片 3：Android 的影響力
+•	全球最廣泛使用的行動作業系統
+•	應用場景：手機、平板、智慧電視、車載系統
+•	學習 Android 開發的價值
+投影片 4：Android 系統架構
+•	Linux Kernel 層
+•	HAL (Hardware Abstraction Layer)
+•	Android Runtime (ART/Dalvik)
+•	Framework 層
+•	Application 層
+投影片 5：開發環境與工具
+•	Android Studio
+•	Gradle 專案結構
+•	模擬器與真機測試
+•	Debug 工具：Logcat、Profiler
+投影片 6：基礎開發流程
+•	建立第一個專案 (Hello World)
+•	Activity 與生命週期
+•	UI 設計：XML Layout 與 View Binding
+•	資源管理 (strings.xml, drawable, styles)
+•	事件處理 (Button 點擊)
+投影片 7：核心元件與概念
+•	四大元件：Activity、Service、Broadcast Receiver、Content Provider
+•	Intent 與 Intent Filter
+•	資料儲存：SharedPreferences、SQLite、Room
+•	權限管理：Manifest 與 Runtime Permission
+投影片 8：延伸學習方向
+•	Jetpack 套件
+•	Kotlin 語言特性
+•	MVVM 架構設計
+•	持續練習與專案實作
+投影片 9：總結
+•	今日重點回顧
+•	Android 開發的基礎已掌握
+•	鼓勵持續探索與創作
+
+
+
+📊 每頁視覺呈現建議
+投影片 1：封面
+•	背景：Android Logo 或手機輪廓圖
+•	元素：大標題置中，副標題小字在下方
+•	視覺效果：綠色主色調，搭配簡單幾何線條
+投影片 2：課程目標
+•	圖示：使用 4 個圓形或方塊圖示，分別代表「架構」「工具」「流程」「元件」
+•	排版：四象限或水平排列
+•	效果：每個目標搭配簡單 icon（齒輪、電腦、流程箭頭、積木）
+投影片 3：Android 的影響力
+•	圖片：世界地圖 + Android Logo 分布在不同區域
+•	圖示：手機、平板、電視、車載系統小圖示
+•	效果：用箭頭或放射狀線條顯示 Android 的廣泛應用
+投影片 4：Android 系統架構
+•	流程圖：五層結構的階梯式或金字塔圖
+•	顏色：由下到上漸層（Kernel → HAL → Runtime → Framework → Application）
+•	效果：每層搭配簡單圖示（如齒輪代表 Kernel，App icon 代表 Application）
+投影片 5：開發環境與工具
+•	圖片：Android Studio 截圖（介面示意）
+•	圖示：Gradle logo、模擬器手機圖、Debug 放大鏡 icon
+•	效果：工具列成水平流程，顯示「建立 → 編譯 → 測試 → Debug」
+投影片 6：基礎開發流程
+•	程式碼片段：
+java
+public class MainActivity extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+}
+•	流程圖：Activity 生命週期 (onCreate → onStart → onResume → …)
+•	圖示：Button 與 TextView UI 示意圖
+投影片 7：核心元件與概念
+•	圖示：四大元件用四個方塊或圓形表示
+o	Activity → 畫面 icon
+o	Service → 背景齒輪
+o	Broadcast Receiver → 無線電波 icon
+o	Content Provider → 資料庫 icon
+•	流程箭頭：Intent 在元件間傳遞的示意圖
+•	效果：權限管理用鎖頭 icon 表示
+投影片 8：延伸學習方向
+•	圖示：Jetpack → 模組積木 icon
+•	圖片：Kotlin Logo
+•	流程圖：MVVM 架構簡圖 (Model ↔ ViewModel ↔ View)
+•	效果：用箭頭顯示學習路徑「基礎 → 進階 → 架構」
+投影片 9：總結
+•	圖示：檢查清單 icon，列出今日重點
+•	效果：用簡單的三點 bullet，搭配綠色勾勾符號
+•	背景：Android 機器人淡化作為底圖
+
+ 
+🧱 Android 系統架構五層解說（中英對照）
+層級	中文名稱	英文名稱	簡短解說（中英對照）
+1（底層）	Linux 核心	Linux Kernel	提供記憶體管理、程序排程、驅動支援等底層功能。
+Provides low-level functions like memory management, process scheduling, and driver support.
+2	硬體抽象層	HAL (Hardware Abstraction Layer)	將硬體功能封裝成統一介面，供上層使用。
+Encapsulates hardware functions into unified interfaces for upper layers.
+3	Android 執行環境	Android Runtime (ART/Dalvik)	負責執行應用程式的 Java/Kotlin 程式碼。
+Executes Java/Kotlin code for applications.
+4	系統框架層	Framework Layer	提供開發者 API，如 Activity、Service、通知等系統服務。
+Provides developer APIs like Activity, Service, and system services.
+5（頂層）	應用程式層	Application Layer	使用者安裝與操作的 App 所在層級。
+Layer where user-installed and operated apps reside.
+
+
+ 
+📋 單選題題庫（10 題）
+1. Android 系統的最底層是什麼？
+A. Application Layer B. Framework Layer C. Linux Kernel D. Android Runtime 答案：C. Linux Kernel
+2. Android 的硬體抽象層 (HAL) 主要作用是什麼？
+A. 提供 UI 設計工具 B. 將硬體功能封裝成統一介面 C. 管理應用程式生命週期 D. 儲存使用者資料 答案：B. 將硬體功能封裝成統一介面
+3. Android Runtime (ART) 的主要功能是？
+A. 提供系統通知服務 B. 執行 Java/Kotlin 程式碼 C. 管理資源檔案 D. 控制硬體驅動程式 答案：B. 執行 Java/Kotlin 程式碼
+4. Android 開發官方最推薦哪種語言來開發？
+A. Java B. Kotlin C. C++ D. Python 答案：B. Kotlin
+5. Android Studio 中用來管理依賴與編譯的工具是？
+A. Maven B. Gradle C. Ant D. Makefile 答案：B. Gradle
+6. 下列哪一個不是 Android 的四大元件？
+A. Activity B. Service C. Broadcast Receiver D. Fragment 答案：D. Fragment （Fragment 是輔助 UI 元件，不屬於四大核心元件）
+7. Activity 的生命週期中，哪個方法在 Activity 建立時最先被呼叫？
+A. onStart B. onResume C. onCreate D. onPause 答案：C. onCreate
+8. Android 中用來在元件間傳遞訊息的機制是？
+A. Intent B. Bundle C. Service D. Content Provider 答案：A. Intent
+9. Android 中用來儲存少量設定資料的方式是？
+A. SQLite B. SharedPreferences C. Room Database D. Content Provider 答案：B. SharedPreferences
+10. 在 Android 中，權限需要在哪裡宣告？
+A. build.gradle B. AndroidManifest.xml C. strings.xml D. styles.xml 答案：B. AndroidManifest.xml
+
